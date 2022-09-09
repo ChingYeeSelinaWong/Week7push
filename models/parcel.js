@@ -14,7 +14,7 @@ const parcelSchema = new mongoose.Schema({
         required:true
     },
     isFragile:{
-        type:String,
+        type:Boolean,
         required:true
     }
 });
